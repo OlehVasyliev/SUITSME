@@ -15,7 +15,7 @@ export default class Dress extends Phaser.GameObjects.Image {
     this.scene.scale.on('resize', this.resize, this);
 
     
-    this.particles = scene.add.particles(particleImg);
+    this.particles = scene.add.particles('frames', particleImg);
 
 
 
